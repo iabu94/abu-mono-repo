@@ -2,7 +2,9 @@
   "name": "@abu-mono-repo/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "npx nx serve ninety-ninex"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~16.2.0",

@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { NxWelcomeComponent } from './nx-welcome.component';
 
 @Component({
   standalone: true,
-  imports: [RouterModule],
+  imports: [NxWelcomeComponent, RouterModule],
   selector: 'abu-mono-repo-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'ninety-ninex';
+  title = 'osos-erp';
 }
