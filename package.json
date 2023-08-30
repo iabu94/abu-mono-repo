@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "npx nx serve ninety-ninex"
+    "ninentyninex": "npx nx serve ninety-ninex",
+    "ososerp": "npx nx serve osos-erp"
   },
   "private": true,
   "dependencies": {
